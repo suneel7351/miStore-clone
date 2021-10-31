@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid rgba(43, 43, 43, 0.137);
+  background-color: white;
+}
+.logo {
+  background-color: orangered;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 58px;
+  overflow-x: hidden;
+  margin-left: 45px;
+}
+.navbar > :nth-child(2) {
+  position: relative;
+  margin-right: 6vmax;
+}
+.navbar > :nth-child(2) > a {
+  color: rgb(59, 59, 59);
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 0 15px;
+}
+.navbar > :nth-child(2) > a:hover {
+  color: orangered;
+}
+
+.searchIcon {
+  cursor: pointer;
+  margin-left: 10px;
+}
+.searchBox {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.searchBox input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+  padding: 2px 7px;
+}
+#logoImage {
+  transform: translate(-58px);
+  transition: all 0.3s;
+}
+#logoImage:hover {
+  transform: translate(0);
+}

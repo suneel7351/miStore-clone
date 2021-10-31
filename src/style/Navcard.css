@@ -1,0 +1,14 @@
+.navcard {
+  width: 10vmax;
+  text-align: center;
+  cursor: pointer;
+}
+.navcard > img {
+  width: 10vmax;
+}
+.navcard > :last-child {
+  color: orangered;
+}
+.navcard>p{
+    margin: 0;
+}

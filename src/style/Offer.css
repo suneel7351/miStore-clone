@@ -1,0 +1,11 @@
+.offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offer img {
+  transition: all 0.5s;
+}
+.offer img:hover {
+  box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
+}

@@ -1,0 +1,26 @@
+.HotAccessoriesMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hotaccessorieslink {
+  color: rgb(94, 94, 94);
+  text-decoration: none;
+  margin: 0 1vmax;
+  position: relative;
+}
+.hotaccessorieslink::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  border-bottom: 1px solid orangered;
+  width: 0%;
+  transition: all 0.5s;
+}
+.hotaccessorieslink:hover::before {
+  width: 100%;
+}
+.hotaccessorieslink:hover {
+  text-decoration: none;
+  color: orangered;
+}
