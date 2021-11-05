@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/miStore-clone/static/css/main.6d4a795b.chunk.css",
+    "main.js": "/miStore-clone/static/js/main.366c21d1.chunk.js",
+    "main.js.map": "/miStore-clone/static/js/main.366c21d1.chunk.js.map",
+    "runtime-main.js": "/miStore-clone/static/js/runtime-main.ded4a024.js",
+    "runtime-main.js.map": "/miStore-clone/static/js/runtime-main.ded4a024.js.map",
+    "static/css/2.429e79c4.chunk.css": "/miStore-clone/static/css/2.429e79c4.chunk.css",
+    "static/js/2.73a29a9e.chunk.js": "/miStore-clone/static/js/2.73a29a9e.chunk.js",
+    "static/js/2.73a29a9e.chunk.js.map": "/miStore-clone/static/js/2.73a29a9e.chunk.js.map",
+    "index.html": "/miStore-clone/index.html",
+    "precache-manifest.4550a87450a926bf1eb80db6843c36db.js": "/miStore-clone/precache-manifest.4550a87450a926bf1eb80db6843c36db.js",
+    "service-worker.js": "/miStore-clone/service-worker.js",
+    "static/css/2.429e79c4.chunk.css.map": "/miStore-clone/static/css/2.429e79c4.chunk.css.map",
+    "static/css/main.6d4a795b.chunk.css.map": "/miStore-clone/static/css/main.6d4a795b.chunk.css.map",
+    "static/js/2.73a29a9e.chunk.js.LICENSE.txt": "/miStore-clone/static/js/2.73a29a9e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ded4a024.js",
+    "static/css/2.429e79c4.chunk.css",
+    "static/js/2.73a29a9e.chunk.js",
+    "static/css/main.6d4a795b.chunk.css",
+    "static/js/main.366c21d1.chunk.js"
+  ]
+}
