@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "249c4ea9c44c6db7a6bb92546370bd7a",
+    "revision": "82357670830fbb830351115cf0a5e095",
     "url": "/miStore-clone/index.html"
   },
   {
-    "revision": "a9401ba34a908fa8fee6",
+    "revision": "205ff043d2dc990967a4",
     "url": "/miStore-clone/static/css/2.429e79c4.chunk.css"
   },
   {
-    "revision": "12f7513eff59929b9ff3",
+    "revision": "e1facf1968cdfbb50040",
     "url": "/miStore-clone/static/css/main.6d4a795b.chunk.css"
   },
   {
-    "revision": "a9401ba34a908fa8fee6",
-    "url": "/miStore-clone/static/js/2.73a29a9e.chunk.js"
+    "revision": "205ff043d2dc990967a4",
+    "url": "/miStore-clone/static/js/2.55bc69a3.chunk.js"
   },
   {
     "revision": "522e03d803bfdb0e0cda4e24f58dcf37",
-    "url": "/miStore-clone/static/js/2.73a29a9e.chunk.js.LICENSE.txt"
+    "url": "/miStore-clone/static/js/2.55bc69a3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "12f7513eff59929b9ff3",
-    "url": "/miStore-clone/static/js/main.366c21d1.chunk.js"
+    "revision": "e1facf1968cdfbb50040",
+    "url": "/miStore-clone/static/js/main.53fd5269.chunk.js"
   },
   {
     "revision": "1850f956b0ad06fe52d2",
