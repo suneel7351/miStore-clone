@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/Navbar.css";
 import { logo } from "../data/Data.json";
+import { Link } from "react-router-dom";
 
 const searchIcon = (
   <svg
@@ -19,35 +20,42 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="logo">
-          <a href="/">
+          <Link to="/">
             <img id="logoImage" src={logo} alt="" />
-          </a>
+          </Link>
         </div>
         <div className="navbarNavlinksBox">
-          <a className="navbarNavlinks" href="/miphones">
+          <Link className="navbarNavlinks" to="/miphones">
             Mi Phones
-          </a>
-          <a className="navbarNavlinks" href="/redmiphones">
+          </Link>
+
+          <Link className="navbarNavlinks" to="/redmiphones">
             Redmi Phones
-          </a>
-          <a className="navbarNavlinks" href="/tv">
+          </Link>
+
+          <Link className="navbarNavlinks" to="/tv">
             TV
-          </a>
-          <a className="navbarNavlinks" href="/laptop">
+          </Link>
+
+          <Link className="navbarNavlinks" to="/laptop">
             Laptops
-          </a>
-          <a className="navbarNavlinks" href="/audio">
+          </Link>
+
+          <Link className="navbarNavlinks" to="/audio">
             Audio
-          </a>
-          <a className="navbarNavlinks" href="/accessories">
+          </Link>
+
+          <Link className="navbarNavlinks" to="/accessories">
             Accesories
-          </a>
-          <a className="navbarNavlinks" href="/home">
+          </Link>
+
+          <Link className="navbarNavlinks" to="/home">
             Home
-          </a>
-          <a className="navbarNavlinks" href="/fitnessLifestyle">
+          </Link>
+
+          <Link className="navbarNavlinks" to="/fitnessLifestyle">
             Fitness and LifeStyle
-          </a>
+          </Link>
         </div>
         <div className="searchBox">
           <input type="text" placeholder="search products" />

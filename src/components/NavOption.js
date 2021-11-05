@@ -2,16 +2,19 @@ import React, { useState, useEffect } from "react";
 import "../style/NavOption.css";
 import Navcard from "./Navcard.js";
 
-function NavOption({
-  miphones,
-  audio,
-  home,
-  accessories,
-  redmiphones,
-  tv,
-  laptop,
-  fitnessLifestyle,
-}) {
+function NavOption(
+  {
+    miphones,
+    audio,
+    home,
+    accessories,
+    redmiphones,
+    tv,
+    laptop,
+    fitnessLifestyle,
+  },
+  props
+) {
   const [miphoneToggle, setmiphoneToggle] = useState(false);
   const [redmiphoneToggle, setredmiphoneToggle] = useState(false);
   const [tvToggle, settvToggle] = useState(false);
@@ -39,12 +42,6 @@ function NavOption({
     }
     if (window.location.pathname === "/audio") {
       setaudioToggle(true);
-    }
-    if (window.location.pathname === "/miphones") {
-      setmiphoneToggle(true);
-    }
-    if (window.location.pathname === "/miphones") {
-      setmiphoneToggle(true);
     }
     if (window.location.pathname === "/accessories") {
       setaccessoriesToggle(true);
@@ -123,7 +120,7 @@ function NavOption({
             })
           : null}
         {accessoriesToggle
-          ? accessories.map((items) => {
+          ? accessories.map((items, index) => {
               return (
                 <Navcard
                   name={items.name}

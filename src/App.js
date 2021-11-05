@@ -1,3 +1,4 @@
+import React from "react";
 import PreNavbar from "./components/PreNavbar.js";
 import Navbar from "./components/Navbar.js";
 import Slider from "./components/Slider.js";
@@ -20,8 +21,39 @@ function App() {
     <Router>
       <PreNavbar />
       <Navbar />
-      <NavOption
-        miphones={data.miPhones}
+      <Route exact path="/miphones">
+        {" "}
+        <NavOption miphones={data.miPhones} />
+      </Route>
+      <Route exact path="/redmiPhones">
+        {" "}
+        <NavOption redmiphones={data.redmiPhones} />
+      </Route>
+      <Route exact path="/tv">
+        {" "}
+        <NavOption tv={data.tv} />
+      </Route>
+      <Route exact path="/laptop">
+        {" "}
+        <NavOption laptop={data.laptop} />
+      </Route>
+      <Route exact path="/audio">
+        {" "}
+        <NavOption audio={data.audio} />
+      </Route>
+      <Route exact path="/home">
+        {" "}
+        <NavOption home={data.home} />
+      </Route>
+      <Route exact path="/accessories">
+        {" "}
+        <NavOption accessories={data.accessories} />
+      </Route>
+      <Route exact path="/fitnessLifestyle">
+        {" "}
+        <NavOption fitnessLifestyle={data.fitnessAndLifeStyle} />
+      </Route>
+      {/* <NavOption
         redmiphones={data.redmiPhones}
         tv={data.tv}
         laptop={data.laptop}
@@ -29,7 +61,7 @@ function App() {
         home={data.home}
         accessroies={data.accessories}
         fitnessLifestyle={data.fitnessAndLifeStyle}
-      />
+      /> */}
       <Slider start={banner.start} />
       <Offer offer={data.offer} />
       <Heading text="STAR PRODUCTS" />
