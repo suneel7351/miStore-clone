@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82357670830fbb830351115cf0a5e095",
+    "revision": "4cc00e7f28bd305d08ef29a9973160de",
     "url": "/miStore-clone/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/miStore-clone/static/css/2.429e79c4.chunk.css"
   },
   {
-    "revision": "e1facf1968cdfbb50040",
+    "revision": "0235f27fdc9e8d6c6f96",
     "url": "/miStore-clone/static/css/main.6d4a795b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/miStore-clone/static/js/2.55bc69a3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e1facf1968cdfbb50040",
-    "url": "/miStore-clone/static/js/main.53fd5269.chunk.js"
+    "revision": "0235f27fdc9e8d6c6f96",
+    "url": "/miStore-clone/static/js/main.c95fdf7a.chunk.js"
   },
   {
     "revision": "1850f956b0ad06fe52d2",
